@@ -1,0 +1,52 @@
+.video{
+    border: 2px solid #0086BB;
+    text-align: center;
+    border-radius: 8px; /* Coins arrondis pour le style */
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#responsive-video {
+    border: 2px solid #0086BB;
+    border-radius: 8px; /* Coins arrondis pour le style */
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 100%; /* La largeur s'adapte à l'écran */
+    height: calc(100vw * 3 / 4); /* Conserve le ratio 4:3 ou adapte selon le ratio de la vidéo */
+    max-width: 640px; /* Largeur maximale si nécessaire */
+    max-height: 480px; /* Hauteur maximale si nécessaire */
+    display: block; /* Évite les comportements inattendus */
+    margin: 0 auto; /* Centre l'iframe */
+  }
+  
+  
+h1 {
+    text-decoration: underline;
+    color: #0086BB;
+    font-family: Arial;
+    text-align: center;
+
+}
+
+h2 {
+    color: #0086BB;
+    font-family: Arial;
+    text-align: center;
+}
+
+img {
+    max-width: 80%; /* Conserve la proportion dans la fenêtre */
+    height: auto;
+    border: 2px solid #0086BB;
+    border-radius: 8px; /* Coins arrondis pour le style */
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Couleur de fond */
+}
+
